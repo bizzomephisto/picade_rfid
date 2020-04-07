@@ -3,21 +3,16 @@
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo apt-get install tightvncserver
-
-vncserver :1
-
-use tightvncserver ip address with :1 at the end
-
-lsmod | grep spi
-
 start->preferences-> rasppi configuration->interfaces
 
 enable SPI
 
+(terminal) lsmod | grep spi
+
 reboot
 (in terminal sudo reboot)
 
+(terminal)
 sudo apt-get install python3-dev python3-pip
 
 sudo pip3 install spidev
