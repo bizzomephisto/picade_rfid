@@ -1,6 +1,7 @@
 # picade_rfid
 # place holder for j.bradford picade_rfid interface
 sudo apt-get update
+
 sudo apt-get upgrade
 
 start->preferences-> rasppi configuration->interfaces
